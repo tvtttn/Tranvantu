@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="baif c"/>
+        <attribute name="authors" value="nvtff"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-10-01 09:21:19 PM"/>
+        <attribute name="created" value="bnZ0ZmY7MVQ7MjAyNC0xMC0wMTswODo0Njo0MCBQTTsxOTU3"/>
+        <attribute name="edited" value="bnZ0ZmY7MVQ7MjAyNC0xMC0wMTswOToyMToxOSBQTTsyOzIwNjY="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <output expression="&quot;Sinh vien:Nguyen Van Tung MSV:235752021610118&quot;" newline="True"/>
+            <declare name="x" type="Integer" array="False" size=""/>
+            <output expression="&quot;inout the radius of the circle&quot;" newline="True"/>
+            <input variable="x"/>
+            <comment text="The following will call the Circle fuction using the value the user entered.&#13;&#10;&#13;&#10;Notice that this variable is called 'x' while the function uses 'Radius'. The value of 'x' is passed to the function."/>
+            <output expression="&quot;Ares is&quot;&amp;Circle(x)" newline="True"/>
+        </body>
+    </function>
+    <function name="Circle" type="Real" variable="Area">
+        <parameters>
+            <parameter name="Radius" type="Real" array="False"/>
+        </parameters>
+        <body>
+            <output expression="&quot;Sinh vien: Nguyen Van Tung MSV:235752021610118&quot;" newline="True"/>
+            <comment text="This function has one parameter called Radius.It acts like a local vsriable that is assigned when the function is called.&#13;&#10;"/>
+            <declare name="Area" type="Real" array="False" size=""/>
+            <assign variable="Area" expression="Pi*Radius^2"/>
+            <comment text="This function returns the contents of the Area variable."/>
+        </body>
+    </function>
+</flowgorithm>

@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="v&#237; d&#7909; d"/>
+        <attribute name="authors" value="nvtff"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-10-01 09:22:31 PM"/>
+        <attribute name="created" value="bnZ0ZmY7MVQ7MjAyNC0wOS0yNjswNzo0MzoyOSBDSDsxOTU3"/>
+        <attribute name="edited" value="bnZ0ZmY7MVQ7MjAyNC0xMC0wMTswOToyMjozMSBQTTsyOzIwNjE="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="canh, chieucao, dientich" type="Real" array="False" size=""/>
+            <output expression="&quot;nhap vao canh cua tam giac&quot;" newline="True"/>
+            <input variable="canh"/>
+            <output expression="&quot;nhap chieu cao cua tam giac&quot;" newline="True"/>
+            <input variable="chieucao"/>
+            <assign variable="dientich" expression="(canh * chieucao) / 2"/>
+            <output expression="dientich" newline="True"/>
+            <output expression="&quot;Sinh vien: Nguyen Van Tung MSV:235752021610118&quot;" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

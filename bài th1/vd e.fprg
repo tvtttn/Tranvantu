@@ -1,0 +1,47 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="1"/>
+        <attribute name="authors" value="nvtff"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-10-01 09:23:53 PM"/>
+        <attribute name="created" value="bnZ0ZmY7MVQ7MjAyNC0wOS0yNzswMjowNTozMCBQTTsxOTYx"/>
+        <attribute name="edited" value="bnZ0ZmY7MVQ7MjAyNC0xMC0wMTswOToyMzo1MyBQTTs0OzIwNjg="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <output expression="&quot;Sinh vien:Nguyen Van Tung MSV:235752021610118&quot;" newline="True"/>
+            <declare name="n" type="Integer" array="False" size=""/>
+            <output expression="&quot;nhap so nguyen duong n&quot;" newline="True"/>
+            <input variable="n"/>
+            <if expression="n==1">
+                <then>
+                    <output expression="&quot;n l&#224; k s&#7889; nguy&#234;n t&#7889;&quot;" newline="True"/>
+                </then>
+                <else>
+                    <if expression="n&lt;4">
+                        <then>
+                            <output expression="&quot;n l&#224; s&#7889; nguy&#234;n t&#7889;&quot;" newline="True"/>
+                        </then>
+                        <else>
+                            <declare name="i" type="Integer" array="False" size=""/>
+                            <assign variable="i" expression="1"/>
+                            <do expression="n%i!=0">
+                                <assign variable="i" expression="i+1"/>
+                            </do>
+                            <if expression="i==n">
+                                <then>
+                                    <output expression="&quot;n la so nguyen to&quot;" newline="True"/>
+                                </then>
+                                <else>
+                                    <output expression="&quot;n k la so nguyen to&quot;" newline="True"/>
+                                </else>
+                            </if>
+                        </else>
+                    </if>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>
